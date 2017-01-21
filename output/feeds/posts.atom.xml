@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gattamelata's Blog - posts</title><link href="http://gattait.github.io/" rel="alternate"></link><link href="http://gattait.github.io/feeds/posts.atom.xml" rel="self"></link><id>http://gattait.github.io/</id><updated>2017-01-22T00:09:00+02:00</updated><entry><title>My super title</title><link href="http://gattait.github.io/my-first-post.html" rel="alternate"></link><published>2017-01-22T00:09:00+02:00</published><updated>2017-01-22T00:09:00+02:00</updated><author><name>Sasha Stolyarov</name></author><id>tag:gattait.github.io,2017-01-22:/my-first-post.html</id><summary type="html">&lt;p class="first last"&gt;My first post, read it to find out.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;This is the content of my blog post.&lt;/p&gt;
+</content><category term="first"></category></entry></feed>
