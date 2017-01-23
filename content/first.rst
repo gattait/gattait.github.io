@@ -9,4 +9,11 @@ My super title
 :authors: Sasha Stolyarov
 :summary: My first post, read it to find out.
 
-This is the content of my blog post.
+# Тестовая статья
+
+    Это ***тело*** статьи.
+    А вот это - формула:
+
+    $ a^0 = 1 $
+
+    Отображается?
