@@ -1,13 +1,11 @@
-Статья с Markdown
-#################
-
-:date: 23-01-2017 13:30
-:modified: 23-01-2017 13:30
-:tags: test, second
-:category: posts
-:slug: markdown
-:authors: Sasha Stolyarov
-:summary: Проверка поддержки Markdown
+Title: Статья с Markdown
+Date: 23-01-2017 13:30
+Modified: 23-01-2017 13:30
+Tags: test, second
+Category: posts
+Slug: markdown
+Authors: Sasha Stolyarov
+Summary: Проверка поддержки Markdown
 
 # Тестовая статья
 
