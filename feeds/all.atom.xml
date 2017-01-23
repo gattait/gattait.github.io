@@ -2,8 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Gattamelata's Blog</title><link href="https://gattait.github.io/" rel="alternate"></link><link href="https://gattait.github.io/feeds/all.atom.xml" rel="self"></link><id>https://gattait.github.io/</id><updated>2017-01-23T13:30:00+02:00</updated><entry><title>Статья с Markdown</title><link href="https://gattait.github.io/markdown.html" rel="alternate"></link><published>2017-01-23T13:30:00+02:00</published><updated>2017-01-23T13:30:00+02:00</updated><author><name>Sasha Stolyarov</name></author><id>tag:gattait.github.io,2017-01-23:/markdown.html</id><summary type="html">&lt;p&gt;Проверка поддержки Markdown&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Тестовая статья&lt;/h1&gt;
 &lt;p&gt;Это &lt;strong&gt;&lt;em&gt;тело&lt;/em&gt;&lt;/strong&gt; статьи.
 А вот это - формула:&lt;/p&gt;
-&lt;p&gt;$ a^0 = 1 $&lt;/p&gt;
-&lt;p&gt;Отображается?&lt;/p&gt;</content><category term="test"></category><category term="second"></category></entry><entry><title>My super title</title><link href="https://gattait.github.io/my-first-post.html" rel="alternate"></link><published>2017-01-22T00:09:00+02:00</published><updated>2017-01-22T00:09:00+02:00</updated><author><name>Sasha Stolyarov</name></author><id>tag:gattait.github.io,2017-01-22:/my-first-post.html</id><summary type="html">&lt;p class="first last"&gt;My first post, read it to find out.&lt;/p&gt;
+&lt;div class="math"&gt;$$ a^0 = 1 $$&lt;/div&gt;
+&lt;p&gt;Отображается?&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="test"></category><category term="second"></category></entry><entry><title>My super title</title><link href="https://gattait.github.io/my-first-post.html" rel="alternate"></link><published>2017-01-22T00:09:00+02:00</published><updated>2017-01-22T00:09:00+02:00</updated><author><name>Sasha Stolyarov</name></author><id>tag:gattait.github.io,2017-01-22:/my-first-post.html</id><summary type="html">&lt;p class="first last"&gt;My first post, read it to find out.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;# Тестовая статья&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Это &lt;strong&gt;*тело*&lt;/strong&gt; статьи.
